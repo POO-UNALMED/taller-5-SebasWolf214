@@ -8,7 +8,7 @@ public class Mamifero extends Animal{
 	public static int leones;
 	private boolean pelaje;
 	private int patas;
-	ArrayList<Mamifero> listadoA = new ArrayList<Mamifero>();
+	static ArrayList<Mamifero> listadoA = new ArrayList<Mamifero>();
 
 	public Mamifero(){
 		super();
