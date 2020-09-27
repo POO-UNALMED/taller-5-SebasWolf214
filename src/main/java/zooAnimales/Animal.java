@@ -62,6 +62,10 @@ public class Animal {
 
 	public String movimiento() {
 		return "desplazarse";
+		
+	}
+	public void caballos() {
+		System.out.println(Mamifero.caballos);
 	}
 	
 	public static String totalPorTipo() {

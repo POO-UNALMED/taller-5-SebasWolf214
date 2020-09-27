@@ -7,12 +7,12 @@ public class Reptil extends Animal{
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
-	static ArrayList<Reptil> listadoA = new ArrayList<Reptil>();
+	private static ArrayList<Reptil> listado = new ArrayList<Reptil>();
 
 	
 	public Reptil(){
 		super();
-		listadoA.add(this);
+		listado.add(this);
 	}
 	public Reptil(String nombre, int edad,String habitat,String genero, String colorEscamas, int largoCola){
 		super(nombre, edad, habitat, genero);
@@ -20,7 +20,7 @@ public class Reptil extends Animal{
 		this.setLargoCola(largoCola);
 
 		
-		listadoA.add(this);
+		listado.add(this);
 	
 	}
 	
@@ -42,14 +42,14 @@ public class Reptil extends Animal{
 		this.largoCola = largoCola;
 	}
 	public static ArrayList<Reptil> getListado() {
-		return listadoA;
+		return listado;
 	}
 	public static void setListado(ArrayList<Reptil> listado) {
-		Reptil.listadoA = listado;
+		Reptil.listado = listado;
 	}
 	
 	public int cantidadReptiles() {
-		return listadoA.size();
+		return listado.size();
 	}
 	public String movimiento() {
 		return "reptar";
