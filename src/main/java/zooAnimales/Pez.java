@@ -8,7 +8,7 @@ public class Pez extends Animal {
 	public static int bacalaos;
 	private String colorEscamas;
 	private int cantidadAletas;
-	ArrayList<Pez> listadoA = new ArrayList<Pez>();
+	static ArrayList<Pez> listadoA = new ArrayList<Pez>();
 
 	
 	
@@ -40,7 +40,7 @@ public class Pez extends Animal {
 		this.cantidadAletas = cantidadAletas;
 	}
 	public static ArrayList<Pez> getListado() {
-		return listado;
+		return listadoA;
 	}
 	public static void setListado(ArrayList<Pez> listado) {
 		Pez.listado = listado;
@@ -48,7 +48,7 @@ public class Pez extends Animal {
 	
 	
 	public int cantidadPeces() {
-		return listado.size();
+		return listadoA.size();
 	}
 	public String movimiento() {
 		return "nadar";

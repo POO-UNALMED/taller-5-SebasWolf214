@@ -8,7 +8,7 @@ public class Anfibio extends Animal{
 	public static int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
-	ArrayList<Anfibio> listadoA = new ArrayList<Anfibio>();
+	static ArrayList<Anfibio> listadoA = new ArrayList<Anfibio>();
 	
 	public Anfibio(){
 		super();
@@ -42,7 +42,7 @@ public class Anfibio extends Animal{
 		this.venenoso = venenoso;
 	}
 	public static ArrayList<Anfibio> getListado() {
-		return listado;
+		return listadoA;
 	}
 	public static void setListado(ArrayList<Anfibio> listado) {
 		Anfibio.listado = listado;
