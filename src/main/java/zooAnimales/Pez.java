@@ -8,6 +8,8 @@ public class Pez extends Animal {
 	public static int bacalaos;
 	private String colorEscamas;
 	private int cantidadAletas;
+	ArrayList<Pez> listadoA = new ArrayList<Pez>();
+
 	
 	
 	public Pez(){
@@ -20,7 +22,7 @@ public class Pez extends Animal {
 		this.setCantidadAletas(cantidadAletas);
 
 		
-		listado.add(this);
+		listadoA.add(this);
 	
 	}
 	

@@ -8,6 +8,7 @@ public class Mamifero extends Animal{
 	public static int leones;
 	private boolean pelaje;
 	private int patas;
+	ArrayList<Mamifero> listadoA = new ArrayList<Mamifero>();
 
 	public Mamifero(){
 		super();
@@ -20,7 +21,7 @@ public class Mamifero extends Animal{
 		this.setPelaje(pelaje);
 		this.setPatas(patas);
 		
-		listado.add(this);		
+		listadoA.add(this);		
 	}
 	
 	

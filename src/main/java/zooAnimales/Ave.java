@@ -7,7 +7,8 @@ public class Ave extends Animal {
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
-	
+	ArrayList<Ave> listadoA = new ArrayList<Ave>();
+
 	public Ave(){
 		super();
 	}
@@ -16,7 +17,7 @@ public class Ave extends Animal {
 		this.setColorPlumas(colorPlumas);
 
 		
-		listado.add(this);
+		listadoA.add(this);
 	
 	}
 	
