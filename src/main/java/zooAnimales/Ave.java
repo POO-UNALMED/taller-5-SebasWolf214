@@ -11,6 +11,7 @@ public class Ave extends Animal {
 
 	public Ave(){
 		super();
+		listadoA.add(this);
 	}
 	public Ave(String nombre, int edad,String habitat,String genero, String colorPlumas){
 		super(nombre, edad, habitat, genero);
