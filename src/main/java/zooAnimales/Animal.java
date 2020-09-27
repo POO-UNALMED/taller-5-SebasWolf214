@@ -18,7 +18,7 @@ public class Animal {
 		this.setGenero(genero);
 	}
 	public Animal(){
-		totalAnimales++;
+		
 	}
 	
 	
