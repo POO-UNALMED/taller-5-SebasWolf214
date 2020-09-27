@@ -72,7 +72,7 @@ public class Animal {
 		+"Anfibios: "+Anfibio.getListado().size();
 	}
 	public String toString(){
-		if (this.zona.getNombre() != ""){
+		if (this.getZona() != null){
 			return "Mi nombre es "+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+
 					" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.zona.getNombre()+", en el "
 					+this.zona.getZoo().getNombre();
