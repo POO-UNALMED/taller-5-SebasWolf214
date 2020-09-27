@@ -6,6 +6,8 @@ public class Zoologico {
 	private String nombre;
 	private String ubicacion;
 	private ArrayList<Zona> zonas;
+	ArrayList<Zona> zozo = new ArrayList<Zona>();
+
 	
 	public Zoologico(){
 		

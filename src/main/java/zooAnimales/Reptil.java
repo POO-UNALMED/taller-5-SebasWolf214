@@ -8,7 +8,8 @@ public class Reptil extends Animal{
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
-	
+	ArrayList<Reptil> listadoA = new ArrayList<Reptil>();
+
 	
 	public Reptil(){
 		super();
@@ -20,7 +21,7 @@ public class Reptil extends Animal{
 		this.setLargoCola(largoCola);
 
 		
-		listado.add(this);
+		listadoA.add(this);
 	
 	}
 	
