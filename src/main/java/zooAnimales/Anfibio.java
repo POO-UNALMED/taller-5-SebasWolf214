@@ -20,7 +20,7 @@ public class Anfibio extends Animal{
 		this.setVenenoso(veneno);
 
 		
-		listado.add(this);
+		listadoA.add(this);
 	
 	}
 	
