@@ -50,7 +50,7 @@ public class Anfibio extends Animal{
 	
 	
 	public int cantidadAnfibios() {
-		return listado.size();
+		return listadoA.size();
 	}
 	public String movimiento() {
 		return "saltar";
