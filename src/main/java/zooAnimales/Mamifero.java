@@ -39,7 +39,7 @@ public class Mamifero extends Animal{
 		this.patas = patas;
 	}
 	public static ArrayList<Mamifero> getListado() {
-		return listado;
+		return listadoA;
 	}
 	public static void setListado(ArrayList<Mamifero> listado) {
 		Mamifero.listado = listado;
